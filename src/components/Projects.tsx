@@ -1,11 +1,26 @@
 import { useState } from "react";
 import { FiGithub, FiExternalLink, FiChevronLeft, FiChevronRight } from "react-icons/fi";
-import { SiReact, SiTypescript, SiTailwindcss, SiDocker, SiTrpc, SiPrisma, SiVercel, SiPostgresql, SiClerk } from "react-icons/si";
-import { FaStripe } from "react-icons/fa";
+import { SiApachekafka, SiApachemaven, SiSpringboot, SiReact, SiTypescript, SiTailwindcss, SiDocker, SiTrpc, SiPrisma, SiVercel, SiPostgresql, SiClerk } from "react-icons/si";
+import { FaStripe, FaJava  } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
 import { Dialog, DialogContent, DialogTrigger, DialogTitle } from "./ui/dialog";
 
 const PROJECTS_DATA = [
+  {
+    title: "E-Commerce Microservices",
+    description: "Architected and deployed a highly scalable, event-driven e-commerce platform using Spring Boot and Spring Cloud. Designed to support high-concurrency traffic, the system utilizes Kafka for asynchronous messaging, ensuring loose coupling and resilience across distributed services. The architecture prioritizes clean code practices, robust data consistency, and seamless deployment cycles within a cloud-native environment.",
+    images: ["/images/ecommerce.png", "/images/ecommerce1.png"],
+    liveUrl: "https://github.com/erickrallado12-ai/ecommerce-microservices",
+    githubUrl: "https://github.com  /erickrallado12-ai/ecommerce-microservices",
+    techStack: [
+      { name: "Java", Icon: FaJava , color: "hover:text-[#ED8B00]" },
+      { name: "Spring Boot", Icon: SiSpringboot, color: "hover:text-[#6DB33F]" },
+      { name: "Maven", Icon: SiApachemaven, color: "hover:text-[#C71A36]" },
+      { name: "Kafka", Icon: SiApachekafka, color: "hover:text-[#231F20]" },
+      { name: "PostgreSQL", Icon: SiPostgresql, color: "hover:text-[#4169E1]" },
+      { name: "Docker", Icon: SiDocker, color: "hover:text-[#2496ED]" },
+    ]
+  },
   {
     title: "Lura",
     description: "Lura is a high-performance, open-source AI text-to-speech and voice-cloning platform built with React and Next.js for a minimalist, seamless user experience. Designed as a scalable ElevenLabs alternative, it leverages Modal for serverless hosting to efficiently deploy and scale open-source voice models. The result is a sleek, developer-friendly architecture engineered for rapid, high-fidelity digital audio generation.",
