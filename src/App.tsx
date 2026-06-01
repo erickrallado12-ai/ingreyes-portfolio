@@ -57,8 +57,8 @@ function App() {
 
           <div className="flex flex-1 justify-center max-w-xs sm:max-w-md w-full">
             <a
-              href="/ErickReyesCV.pdf"
-              download="ErickReyesCV.pdf"
+              href="/ErickReyesResume.pdf"
+              download="ErickReyesResume.pdf"
               className="
               inline-flex
               align-middle
