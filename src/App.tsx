@@ -91,7 +91,7 @@ function App() {
               <Download className="h-5 w-5 stroke-[1.5]" />
             </a>
           </div>
-          
+
           <div className="hidden flex-1 sm:flex justify-end pointer-events-none" aria-hidden="true">
             <div className="w-12 h-12" />
           </div>
@@ -108,15 +108,15 @@ function App() {
             About me
           </h3>
           <p className="text-lg md:text-xl font-sans leading-relaxed text-slate-600 dark:text-zinc-300 font-normal max-w-2xl">
-            I'm a Fullstack developer with over a decade of experience engineering high-performance
-            web architectures and scalable solutions. I specialize in translating complex logic into
-            fluid user interfaces and robust backend systems, backed by Microsoft Azure
-            certifications that verify my cloud infrastructure expertise. My core stack focuses on
-            building powerful RESTful APIs using Java, Python, and Node.js, seamlessly paired with
-            React on the client side for advanced state management and responsive user experiences.
-            Driven by rigorous engineering practices, I excel at optimizing data pipelines,
-            automating infrastructure, and architecting maintainable, data-driven applications from
-            the ground up.
+            Senior Fullstack Engineer with over a decade of experience designing and scaling
+            complex, data-driven web architectures. I specialize in transforming intricate business
+            logic into resilient, event-driven systems that prioritize high performance and
+            maintainability. My approach transcends specific technology stacks; I focus on
+            architecting robust backend infrastructures, optimizing data pipelines, and implementing
+            intelligent, AI-powered search solutions. With a firm foundation in cloud-native
+            practices and infrastructure automation, I thrive on solving technical ambiguity and
+            building scalable products from the ground up, ensuring that technology always serves
+            the broader business vision.
           </p>
         </section>
 
